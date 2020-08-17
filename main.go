@@ -15,7 +15,11 @@ func main() {
 
 		f := fib()
 
+<<<<<<< HEAD
 		res := &response{Message: "Hello World v5"}
+=======
+		res := &response{Message: "Hello World"}
+>>>>>>> parent of bb205d5... Updated main.go to v2
 
 		for _, e := range os.Environ() {
 			pair := strings.Split(e, "=")
