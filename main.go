@@ -16,10 +16,14 @@ func main() {
 		f := fib()
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 		res := &response{Message: "Hello World v5"}
 =======
 		res := &response{Message: "Hello World"}
 >>>>>>> parent of bb205d5... Updated main.go to v2
+=======
+		res := &response{Message: "Hello World v4"}
+>>>>>>> parent of b404f9b... Big changes in v5
 
 		for _, e := range os.Environ() {
 			pair := strings.Split(e, "=")
